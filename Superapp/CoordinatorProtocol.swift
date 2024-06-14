@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 public enum CoordinatorType {
-    case journey1, journey2, journey3
+    case tab, journey1, journey2, journey3
 }
 
 protocol CoordinatorFinishDelegate: AnyObject {

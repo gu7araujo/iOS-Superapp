@@ -18,6 +18,8 @@
 		B72244722C1CA78F00C42215 /* Journey1Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244712C1CA78F00C42215 /* Journey1Coordinator.swift */; };
 		B72244742C1CA7F300C42215 /* Journey2Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244732C1CA7F300C42215 /* Journey2Coordinator.swift */; };
 		B72244762C1CA81300C42215 /* Journey3Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244752C1CA81300C42215 /* Journey3Coordinator.swift */; };
+		B72244782C1CAA7D00C42215 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244772C1CAA7D00C42215 /* TabCoordinator.swift */; };
+		B722447A2C1CAAB100C42215 /* TabSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244792C1CAAB100C42215 /* TabSections.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B72244712C1CA78F00C42215 /* Journey1Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey1Coordinator.swift; sourceTree = "<group>"; };
 		B72244732C1CA7F300C42215 /* Journey2Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey2Coordinator.swift; sourceTree = "<group>"; };
 		B72244752C1CA81300C42215 /* Journey3Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey3Coordinator.swift; sourceTree = "<group>"; };
+		B72244772C1CAA7D00C42215 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		B72244792C1CAAB100C42215 /* TabSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSections.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				B70677452C1BB2920018DFA6 /* LaunchScreen.storyboard */,
 				B70677482C1BB2920018DFA6 /* Info.plist */,
 				B72244662C1CA4F600C42215 /* CoordinatorProtocol.swift */,
+				B72244772C1CAA7D00C42215 /* TabCoordinator.swift */,
+				B72244792C1CAAB100C42215 /* TabSections.swift */,
 			);
 			path = Superapp;
 			sourceTree = "<group>";
@@ -178,12 +184,14 @@
 			files = (
 				B722446D2C1CA6F100C42215 /* SecondViewController.swift in Sources */,
 				B72244762C1CA81300C42215 /* Journey3Coordinator.swift in Sources */,
+				B722447A2C1CAAB100C42215 /* TabSections.swift in Sources */,
 				B72244742C1CA7F300C42215 /* Journey2Coordinator.swift in Sources */,
 				B706773B2C1BB2900018DFA6 /* AppDelegate.swift in Sources */,
 				B72244702C1CA70B00C42215 /* ThirdViewController.swift in Sources */,
 				B72244672C1CA4F600C42215 /* CoordinatorProtocol.swift in Sources */,
 				B72244722C1CA78F00C42215 /* Journey1Coordinator.swift in Sources */,
 				B706773D2C1BB2900018DFA6 /* SceneDelegate.swift in Sources */,
+				B72244782C1CAA7D00C42215 /* TabCoordinator.swift in Sources */,
 				B722446A2C1CA64F00C42215 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,12 +20,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let safeWindow = UIWindow(windowScene: windowScene)
         let navController = UINavigationController()
         navController.isNavigationBarHidden = true
-        let startCoordinator = Journey1Coordinator(navController)
+        let appCoordinator = TabCoordinator(navController)
         
         safeWindow.frame = UIScreen.main.bounds
         safeWindow.makeKeyAndVisible()
         safeWindow.rootViewController = navController
-        startCoordinator.start()
+        appCoordinator.start()
         
         window = safeWindow
     }
