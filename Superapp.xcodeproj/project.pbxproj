@@ -11,6 +11,9 @@
 		B706773D2C1BB2900018DFA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706773C2C1BB2900018DFA6 /* SceneDelegate.swift */; };
 		B70677442C1BB2920018DFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70677432C1BB2920018DFA6 /* Assets.xcassets */; };
 		B70677472C1BB2920018DFA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B70677462C1BB2920018DFA6 /* Base */; };
+		B715CD042C1DCAD500DB9794 /* Journey4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715CD032C1DCAD500DB9794 /* Journey4ViewController.swift */; };
+		B715CD062C1DDE6600DB9794 /* Journey4Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715CD052C1DDE6600DB9794 /* Journey4Coordinator.swift */; };
+		B715CD082C1DE02C00DB9794 /* Journey4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715CD072C1DE02C00DB9794 /* Journey4ViewModel.swift */; };
 		B72244672C1CA4F600C42215 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244662C1CA4F600C42215 /* CoordinatorProtocol.swift */; };
 		B722446A2C1CA64F00C42215 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244692C1CA64F00C42215 /* HomeViewController.swift */; };
 		B722446D2C1CA6F100C42215 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722446C2C1CA6F100C42215 /* SecondViewController.swift */; };
@@ -20,6 +23,8 @@
 		B72244762C1CA81300C42215 /* Journey3Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244752C1CA81300C42215 /* Journey3Coordinator.swift */; };
 		B72244782C1CAA7D00C42215 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244772C1CAA7D00C42215 /* TabCoordinator.swift */; };
 		B722447A2C1CAAB100C42215 /* TabSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244792C1CAAB100C42215 /* TabSections.swift */; };
+		B73B34812C1D329600983DFB /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B34802C1D329600983DFB /* Core.swift */; };
+		B73B34832C1D399900983DFB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B34822C1D399900983DFB /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,9 @@
 		B70677432C1BB2920018DFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B70677462C1BB2920018DFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B70677482C1BB2920018DFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B715CD032C1DCAD500DB9794 /* Journey4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4ViewController.swift; sourceTree = "<group>"; };
+		B715CD052C1DDE6600DB9794 /* Journey4Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4Coordinator.swift; sourceTree = "<group>"; };
+		B715CD072C1DE02C00DB9794 /* Journey4ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4ViewModel.swift; sourceTree = "<group>"; };
 		B72244662C1CA4F600C42215 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		B72244692C1CA64F00C42215 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B722446C2C1CA6F100C42215 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +46,8 @@
 		B72244752C1CA81300C42215 /* Journey3Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey3Coordinator.swift; sourceTree = "<group>"; };
 		B72244772C1CAA7D00C42215 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 		B72244792C1CAAB100C42215 /* TabSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSections.swift; sourceTree = "<group>"; };
+		B73B34802C1D329600983DFB /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		B73B34822C1D399900983DFB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +80,10 @@
 		B70677392C1BB2900018DFA6 /* Superapp */ = {
 			isa = PBXGroup;
 			children = (
-				B722446E2C1CA70100C42215 /* journey3 */,
-				B722446B2C1CA6AF00C42215 /* journey2 */,
-				B72244682C1CA63900C42215 /* journey1 */,
+				B715CD022C1DCAB200DB9794 /* Journey4 */,
+				B722446E2C1CA70100C42215 /* Journey3 */,
+				B722446B2C1CA6AF00C42215 /* Journey2 */,
+				B72244682C1CA63900C42215 /* Journey1 */,
 				B706773A2C1BB2900018DFA6 /* AppDelegate.swift */,
 				B706773C2C1BB2900018DFA6 /* SceneDelegate.swift */,
 				B70677432C1BB2920018DFA6 /* Assets.xcassets */,
@@ -81,35 +92,47 @@
 				B72244662C1CA4F600C42215 /* CoordinatorProtocol.swift */,
 				B72244772C1CAA7D00C42215 /* TabCoordinator.swift */,
 				B72244792C1CAAB100C42215 /* TabSections.swift */,
+				B73B34802C1D329600983DFB /* Core.swift */,
 			);
 			path = Superapp;
 			sourceTree = "<group>";
 		};
-		B72244682C1CA63900C42215 /* journey1 */ = {
+		B715CD022C1DCAB200DB9794 /* Journey4 */ = {
+			isa = PBXGroup;
+			children = (
+				B715CD032C1DCAD500DB9794 /* Journey4ViewController.swift */,
+				B715CD052C1DDE6600DB9794 /* Journey4Coordinator.swift */,
+				B715CD072C1DE02C00DB9794 /* Journey4ViewModel.swift */,
+			);
+			path = Journey4;
+			sourceTree = "<group>";
+		};
+		B72244682C1CA63900C42215 /* Journey1 */ = {
 			isa = PBXGroup;
 			children = (
 				B72244692C1CA64F00C42215 /* HomeViewController.swift */,
 				B72244712C1CA78F00C42215 /* Journey1Coordinator.swift */,
+				B73B34822C1D399900983DFB /* HomeViewModel.swift */,
 			);
-			path = journey1;
+			path = Journey1;
 			sourceTree = "<group>";
 		};
-		B722446B2C1CA6AF00C42215 /* journey2 */ = {
+		B722446B2C1CA6AF00C42215 /* Journey2 */ = {
 			isa = PBXGroup;
 			children = (
 				B722446C2C1CA6F100C42215 /* SecondViewController.swift */,
 				B72244732C1CA7F300C42215 /* Journey2Coordinator.swift */,
 			);
-			path = journey2;
+			path = Journey2;
 			sourceTree = "<group>";
 		};
-		B722446E2C1CA70100C42215 /* journey3 */ = {
+		B722446E2C1CA70100C42215 /* Journey3 */ = {
 			isa = PBXGroup;
 			children = (
 				B722446F2C1CA70B00C42215 /* ThirdViewController.swift */,
 				B72244752C1CA81300C42215 /* Journey3Coordinator.swift */,
 			);
-			path = journey3;
+			path = Journey3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,11 +210,16 @@
 				B722447A2C1CAAB100C42215 /* TabSections.swift in Sources */,
 				B72244742C1CA7F300C42215 /* Journey2Coordinator.swift in Sources */,
 				B706773B2C1BB2900018DFA6 /* AppDelegate.swift in Sources */,
+				B715CD062C1DDE6600DB9794 /* Journey4Coordinator.swift in Sources */,
 				B72244702C1CA70B00C42215 /* ThirdViewController.swift in Sources */,
+				B73B34812C1D329600983DFB /* Core.swift in Sources */,
 				B72244672C1CA4F600C42215 /* CoordinatorProtocol.swift in Sources */,
+				B73B34832C1D399900983DFB /* HomeViewModel.swift in Sources */,
 				B72244722C1CA78F00C42215 /* Journey1Coordinator.swift in Sources */,
 				B706773D2C1BB2900018DFA6 /* SceneDelegate.swift in Sources */,
+				B715CD042C1DCAD500DB9794 /* Journey4ViewController.swift in Sources */,
 				B72244782C1CAA7D00C42215 /* TabCoordinator.swift in Sources */,
+				B715CD082C1DE02C00DB9794 /* Journey4ViewModel.swift in Sources */,
 				B722446A2C1CA64F00C42215 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

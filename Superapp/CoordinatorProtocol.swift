@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 public enum CoordinatorType {
-    case tab, journey1, journey2, journey3
+    case tab, journey1, journey2, journey3, journey4
 }
 
 protocol CoordinatorFinishDelegate: AnyObject {
@@ -20,6 +20,8 @@ protocol CoordinatorProtocol: AnyObject {
     var finishDelegate: CoordinatorFinishDelegate? { get set }
     var navigationController: UINavigationController { get set }
     var childCoordinators: [CoordinatorProtocol] { get set }
+    var childControllers: [UIViewController] { get set }
+    var parentCoordinator: CoordinatorProtocol? { get set }
     var type: CoordinatorType { get }
     
     init(_ navigationController: UINavigationController)
@@ -30,7 +32,16 @@ protocol CoordinatorProtocol: AnyObject {
 
 extension CoordinatorProtocol {
     func finish() {
+        var viewControllers = navigationController.viewControllers
+        childControllers.forEach { viewController in viewControllers.removeAll { $0 === viewController } }
+        
+        if let lastViewController = viewControllers.last {
+            navigationController.popToViewController(lastViewController, animated: true)
+        }
+        
+        childControllers.removeAll()
         childCoordinators.removeAll()
+        parentCoordinator = nil
         finishDelegate?.coordinatorDidFinish(childCoordinator: self)
     }
 }
