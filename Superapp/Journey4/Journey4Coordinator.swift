@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import Core
 
 class Journey4Coordinator: CoordinatorProtocol {
     

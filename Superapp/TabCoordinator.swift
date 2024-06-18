@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import Combine
+import Core
 
 protocol TabCoordinatorProtocol: CoordinatorProtocol {
     var tabBarController: UITabBarController { get set }
@@ -42,7 +43,7 @@ class TabCoordinator: NSObject, TabCoordinatorProtocol {
     }
     
     private func bindBadgeValue() {
-        Core.shared.$badgeValue
+        Shared.shared.$badgeValue
             .sink { [weak self] value in
                 self?.tabBarController.tabBar.items?[0].badgeValue = "\(value)"
             }

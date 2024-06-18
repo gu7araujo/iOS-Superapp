@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import Combine
+import Core
 
 class HomeViewController: UIViewController {
     
@@ -25,7 +26,7 @@ class HomeViewController: UIViewController {
     
     let counterLabel: UILabel = {
         let label = UILabel()
-        label.text = "\(Core.shared.badgeValue)"
+        label.text = "\(Shared.shared.badgeValue)"
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 32)
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -109,7 +110,7 @@ class HomeViewController: UIViewController {
     }
     
     private func bindBadgeValue() {
-        Core.shared.$badgeValue
+        Shared.shared.$badgeValue
             .receive(on: DispatchQueue.main)
             .sink { [weak self] value in
                 self?.counterLabel.text = "\(value)"
@@ -118,11 +119,11 @@ class HomeViewController: UIViewController {
     }
     
     @objc func increaseValue() {
-        Core.shared.badgeValue += 1
+        Shared.shared.badgeValue += 1
     }
     
     @objc func decreaseValue() {
-        Core.shared.badgeValue -= 1
+        Shared.shared.badgeValue -= 1
     }
     
     @objc func navigateToNextScreen() {

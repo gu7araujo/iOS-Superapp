@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import Core
 
 protocol Journey1CoordinatorDelegate: AnyObject {
     func navigateToJourney4()
