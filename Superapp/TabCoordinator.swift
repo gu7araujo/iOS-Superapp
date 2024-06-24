@@ -10,6 +10,7 @@ import UIKit
 import Combine
 import Core
 import Journey1
+import Journey2
 
 protocol TabCoordinatorProtocol: CoordinatorProtocol {
     var tabBarController: UITabBarController { get set }

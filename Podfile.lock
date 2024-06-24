@@ -2,20 +2,25 @@ PODS:
   - Core (0.0.2)
   - Journey1 (0.0.2):
     - Core
+  - Journey2 (0.0.1):
+    - Core
 
 DEPENDENCIES:
   - Core (= 0.0.2)
   - Journey1 (= 0.0.2)
+  - Journey2 (= 0.0.1)
 
 SPEC REPOS:
   "git@github.com:gu7araujo/iOS-Libraries-Specs.git":
     - Core
     - Journey1
+    - Journey2
 
 SPEC CHECKSUMS:
   Core: 0f60d4de2d516f530272a1200710435401b98e8f
   Journey1: a2d3ea4e40beed153939e941d9b7b1cb7e7898f6
+  Journey2: 61545031622fc7af084164ce566ece6d5dbf7537
 
-PODFILE CHECKSUM: 6f06404eac3e774aa66918018276c1ebe96e11ea
+PODFILE CHECKSUM: 68cefd7f1707051392793e13f98aef095832dcb7
 
 COCOAPODS: 1.15.2

@@ -10,4 +10,5 @@ target 'Superapp' do
   # Pods for Superapp
   pod 'Core', '0.0.2'
   pod 'Journey1', '0.0.2'
+  pod 'Journey2', '0.0.1'
 end
