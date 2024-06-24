@@ -14,20 +14,16 @@
 		B715CD042C1DCAD500DB9794 /* Journey4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715CD032C1DCAD500DB9794 /* Journey4ViewController.swift */; };
 		B715CD062C1DDE6600DB9794 /* Journey4Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715CD052C1DDE6600DB9794 /* Journey4Coordinator.swift */; };
 		B715CD082C1DE02C00DB9794 /* Journey4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715CD072C1DE02C00DB9794 /* Journey4ViewModel.swift */; };
-		B722446A2C1CA64F00C42215 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244692C1CA64F00C42215 /* HomeViewController.swift */; };
 		B722446D2C1CA6F100C42215 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722446C2C1CA6F100C42215 /* SecondViewController.swift */; };
 		B72244702C1CA70B00C42215 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722446F2C1CA70B00C42215 /* ThirdViewController.swift */; };
-		B72244722C1CA78F00C42215 /* Journey1Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244712C1CA78F00C42215 /* Journey1Coordinator.swift */; };
 		B72244742C1CA7F300C42215 /* Journey2Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244732C1CA7F300C42215 /* Journey2Coordinator.swift */; };
 		B72244762C1CA81300C42215 /* Journey3Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244752C1CA81300C42215 /* Journey3Coordinator.swift */; };
 		B72244782C1CAA7D00C42215 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244772C1CAA7D00C42215 /* TabCoordinator.swift */; };
 		B722447A2C1CAAB100C42215 /* TabSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244792C1CAAB100C42215 /* TabSections.swift */; };
-		B73B34832C1D399900983DFB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B34822C1D399900983DFB /* HomeViewModel.swift */; };
-		F181ED503694994665AA1EE2 /* libPods-Superapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 051314453B36354DBB578704 /* libPods-Superapp.a */; };
+		B7DFDC772C25E6B000E8D38E /* Pods_Superapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ECBCBE2B254CAD2FCADDEE /* Pods_Superapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		051314453B36354DBB578704 /* libPods-Superapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Superapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3666EEF89A991C97C0B29352 /* Pods-Superapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Superapp.debug.xcconfig"; path = "Target Support Files/Pods-Superapp/Pods-Superapp.debug.xcconfig"; sourceTree = "<group>"; };
 		B70677372C1BB2900018DFA6 /* Superapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B706773A2C1BB2900018DFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,16 +34,16 @@
 		B715CD032C1DCAD500DB9794 /* Journey4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4ViewController.swift; sourceTree = "<group>"; };
 		B715CD052C1DDE6600DB9794 /* Journey4Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4Coordinator.swift; sourceTree = "<group>"; };
 		B715CD072C1DE02C00DB9794 /* Journey4ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4ViewModel.swift; sourceTree = "<group>"; };
-		B72244692C1CA64F00C42215 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B722446C2C1CA6F100C42215 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B722446F2C1CA70B00C42215 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		B72244712C1CA78F00C42215 /* Journey1Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey1Coordinator.swift; sourceTree = "<group>"; };
 		B72244732C1CA7F300C42215 /* Journey2Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey2Coordinator.swift; sourceTree = "<group>"; };
 		B72244752C1CA81300C42215 /* Journey3Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey3Coordinator.swift; sourceTree = "<group>"; };
 		B72244772C1CAA7D00C42215 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 		B72244792C1CAAB100C42215 /* TabSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSections.swift; sourceTree = "<group>"; };
-		B73B34822C1D399900983DFB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B7DFDC702C25E65F00E8D38E /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DFDC742C25E66300E8D38E /* Journey1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Journey1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CDFE6397A8F5ADD2846DED /* Pods-Superapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Superapp.release.xcconfig"; path = "Target Support Files/Pods-Superapp/Pods-Superapp.release.xcconfig"; sourceTree = "<group>"; };
+		E2ECBCBE2B254CAD2FCADDEE /* Pods_Superapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Superapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F181ED503694994665AA1EE2 /* libPods-Superapp.a in Frameworks */,
+				B7DFDC772C25E6B000E8D38E /* Pods_Superapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +64,6 @@
 				3666EEF89A991C97C0B29352 /* Pods-Superapp.debug.xcconfig */,
 				C3CDFE6397A8F5ADD2846DED /* Pods-Superapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -96,7 +91,6 @@
 				B715CD022C1DCAB200DB9794 /* Journey4 */,
 				B722446E2C1CA70100C42215 /* Journey3 */,
 				B722446B2C1CA6AF00C42215 /* Journey2 */,
-				B72244682C1CA63900C42215 /* Journey1 */,
 				B706773A2C1BB2900018DFA6 /* AppDelegate.swift */,
 				B706773C2C1BB2900018DFA6 /* SceneDelegate.swift */,
 				B70677432C1BB2920018DFA6 /* Assets.xcassets */,
@@ -116,16 +110,6 @@
 				B715CD072C1DE02C00DB9794 /* Journey4ViewModel.swift */,
 			);
 			path = Journey4;
-			sourceTree = "<group>";
-		};
-		B72244682C1CA63900C42215 /* Journey1 */ = {
-			isa = PBXGroup;
-			children = (
-				B72244692C1CA64F00C42215 /* HomeViewController.swift */,
-				B72244712C1CA78F00C42215 /* Journey1Coordinator.swift */,
-				B73B34822C1D399900983DFB /* HomeViewModel.swift */,
-			);
-			path = Journey1;
 			sourceTree = "<group>";
 		};
 		B722446B2C1CA6AF00C42215 /* Journey2 */ = {
@@ -149,7 +133,9 @@
 		C002173A800B61BEDB3CEFFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				051314453B36354DBB578704 /* libPods-Superapp.a */,
+				B7DFDC742C25E66300E8D38E /* Journey1.framework */,
+				B7DFDC702C25E65F00E8D38E /* Core.framework */,
+				E2ECBCBE2B254CAD2FCADDEE /* Pods_Superapp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,6 +151,7 @@
 				B70677332C1BB2900018DFA6 /* Sources */,
 				B70677342C1BB2900018DFA6 /* Frameworks */,
 				B70677352C1BB2900018DFA6 /* Resources */,
+				3AD364F682725D7AA0052E9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +208,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3AD364F682725D7AA0052E9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Superapp/Pods-Superapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Superapp/Pods-Superapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Superapp/Pods-Superapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		484453A9D963784242C333F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,13 +261,10 @@
 				B706773B2C1BB2900018DFA6 /* AppDelegate.swift in Sources */,
 				B715CD062C1DDE6600DB9794 /* Journey4Coordinator.swift in Sources */,
 				B72244702C1CA70B00C42215 /* ThirdViewController.swift in Sources */,
-				B73B34832C1D399900983DFB /* HomeViewModel.swift in Sources */,
-				B72244722C1CA78F00C42215 /* Journey1Coordinator.swift in Sources */,
 				B706773D2C1BB2900018DFA6 /* SceneDelegate.swift in Sources */,
 				B715CD042C1DCAD500DB9794 /* Journey4ViewController.swift in Sources */,
 				B72244782C1CAA7D00C42215 /* TabCoordinator.swift in Sources */,
 				B715CD082C1DE02C00DB9794 /* Journey4ViewModel.swift in Sources */,
-				B722446A2C1CA64F00C42215 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RHBH6Q62PG;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Superapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -438,6 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RHBH6Q62PG;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Superapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
