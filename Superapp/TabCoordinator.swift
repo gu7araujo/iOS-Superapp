@@ -11,6 +11,8 @@ import Combine
 import Core
 import Journey1
 import Journey2
+import Journey3
+import Journey4
 
 protocol TabCoordinatorProtocol: CoordinatorProtocol {
     var tabBarController: UITabBarController { get set }

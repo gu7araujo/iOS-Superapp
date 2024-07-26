@@ -11,11 +11,6 @@
 		B706773D2C1BB2900018DFA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706773C2C1BB2900018DFA6 /* SceneDelegate.swift */; };
 		B70677442C1BB2920018DFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70677432C1BB2920018DFA6 /* Assets.xcassets */; };
 		B70677472C1BB2920018DFA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B70677462C1BB2920018DFA6 /* Base */; };
-		B715CD042C1DCAD500DB9794 /* Journey4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715CD032C1DCAD500DB9794 /* Journey4ViewController.swift */; };
-		B715CD062C1DDE6600DB9794 /* Journey4Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715CD052C1DDE6600DB9794 /* Journey4Coordinator.swift */; };
-		B715CD082C1DE02C00DB9794 /* Journey4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715CD072C1DE02C00DB9794 /* Journey4ViewModel.swift */; };
-		B72244702C1CA70B00C42215 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722446F2C1CA70B00C42215 /* ThirdViewController.swift */; };
-		B72244762C1CA81300C42215 /* Journey3Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244752C1CA81300C42215 /* Journey3Coordinator.swift */; };
 		B72244782C1CAA7D00C42215 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244772C1CAA7D00C42215 /* TabCoordinator.swift */; };
 		B722447A2C1CAAB100C42215 /* TabSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72244792C1CAAB100C42215 /* TabSections.swift */; };
 		B7DFDC772C25E6B000E8D38E /* Pods_Superapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ECBCBE2B254CAD2FCADDEE /* Pods_Superapp.framework */; };
@@ -29,11 +24,6 @@
 		B70677432C1BB2920018DFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B70677462C1BB2920018DFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B70677482C1BB2920018DFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B715CD032C1DCAD500DB9794 /* Journey4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4ViewController.swift; sourceTree = "<group>"; };
-		B715CD052C1DDE6600DB9794 /* Journey4Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4Coordinator.swift; sourceTree = "<group>"; };
-		B715CD072C1DE02C00DB9794 /* Journey4ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4ViewModel.swift; sourceTree = "<group>"; };
-		B722446F2C1CA70B00C42215 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		B72244752C1CA81300C42215 /* Journey3Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey3Coordinator.swift; sourceTree = "<group>"; };
 		B72244772C1CAA7D00C42215 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 		B72244792C1CAAB100C42215 /* TabSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSections.swift; sourceTree = "<group>"; };
 		B7DFDC702C25E65F00E8D38E /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,8 +74,6 @@
 		B70677392C1BB2900018DFA6 /* Superapp */ = {
 			isa = PBXGroup;
 			children = (
-				B715CD022C1DCAB200DB9794 /* Journey4 */,
-				B722446E2C1CA70100C42215 /* Journey3 */,
 				B706773A2C1BB2900018DFA6 /* AppDelegate.swift */,
 				B706773C2C1BB2900018DFA6 /* SceneDelegate.swift */,
 				B70677432C1BB2920018DFA6 /* Assets.xcassets */,
@@ -95,25 +83,6 @@
 				B72244792C1CAAB100C42215 /* TabSections.swift */,
 			);
 			path = Superapp;
-			sourceTree = "<group>";
-		};
-		B715CD022C1DCAB200DB9794 /* Journey4 */ = {
-			isa = PBXGroup;
-			children = (
-				B715CD032C1DCAD500DB9794 /* Journey4ViewController.swift */,
-				B715CD052C1DDE6600DB9794 /* Journey4Coordinator.swift */,
-				B715CD072C1DE02C00DB9794 /* Journey4ViewModel.swift */,
-			);
-			path = Journey4;
-			sourceTree = "<group>";
-		};
-		B722446E2C1CA70100C42215 /* Journey3 */ = {
-			isa = PBXGroup;
-			children = (
-				B722446F2C1CA70B00C42215 /* ThirdViewController.swift */,
-				B72244752C1CA81300C42215 /* Journey3Coordinator.swift */,
-			);
-			path = Journey3;
 			sourceTree = "<group>";
 		};
 		C002173A800B61BEDB3CEFFC /* Frameworks */ = {
@@ -240,15 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B72244762C1CA81300C42215 /* Journey3Coordinator.swift in Sources */,
 				B722447A2C1CAAB100C42215 /* TabSections.swift in Sources */,
 				B706773B2C1BB2900018DFA6 /* AppDelegate.swift in Sources */,
-				B715CD062C1DDE6600DB9794 /* Journey4Coordinator.swift in Sources */,
-				B72244702C1CA70B00C42215 /* ThirdViewController.swift in Sources */,
 				B706773D2C1BB2900018DFA6 /* SceneDelegate.swift in Sources */,
-				B715CD042C1DCAD500DB9794 /* Journey4ViewController.swift in Sources */,
 				B72244782C1CAA7D00C42215 /* TabCoordinator.swift in Sources */,
-				B715CD082C1DE02C00DB9794 /* Journey4ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

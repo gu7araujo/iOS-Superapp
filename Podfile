@@ -11,4 +11,6 @@ target 'Superapp' do
   pod 'Core', '0.0.2'
   pod 'Journey1', '0.0.2'
   pod 'Journey2', '0.0.1'
+  pod 'Journey3', '0.0.1'
+  pod 'Journey4', '0.0.1'
 end
