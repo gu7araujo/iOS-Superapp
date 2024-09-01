@@ -8,9 +8,9 @@ target 'Superapp' do
   use_frameworks!
 
   # Pods for Superapp
-  pod 'Core', '0.0.2'
-  pod 'Journey1', '0.0.2'
-  pod 'Journey2', '0.0.1'
-  pod 'Journey3', '0.0.1'
-  pod 'Journey4', '0.0.1'
+  pod 'Core', '1.0.0'
+  pod 'Journey1', '1.0.0'
+  pod 'Journey2', '1.0.0'
+  pod 'Journey3', '1.0.0'
+  pod 'Journey4', '1.0.0'
 end

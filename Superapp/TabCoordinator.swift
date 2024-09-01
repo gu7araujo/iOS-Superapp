@@ -24,7 +24,6 @@ class TabCoordinator: NSObject, TabCoordinatorProtocol {
     weak var finishDelegate: CoordinatorFinishDelegate?
     var navigationController: UINavigationController
     var childCoordinators: [CoordinatorProtocol] = []
-    var childControllers: [UIViewController] = []
     var parentCoordinator: (any CoordinatorProtocol)? = nil
     var type: CoordinatorType = .tab
 
@@ -60,7 +59,6 @@ class TabCoordinator: NSObject, TabCoordinatorProtocol {
         tabBarController.tabBar.backgroundColor = .lightGray
         tabBarController.tabBar.tintColor = .white
         navigationController.viewControllers = [tabBarController]
-        childControllers.append(tabBarController)
     }
 
     private func getTabController(for section: TabSections) -> UINavigationController {
